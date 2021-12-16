@@ -10,38 +10,31 @@ To predict annual income we will need to use some machine learning methods, and 
 ## Data
 This dataset is an extraction was done by Barry Becker from the 1994 Census database.
 
-  Attribute Information:
- 
  **Input variables:**
- 
-    1. `age`: continuous.
+ 1. `age`: continuous.
+ 2. `workclass`: Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked.
     
-    2. `workclass`: Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked.
-    
-    3. `education`: Bachelors, Some-college, 11th, HS-grad, Prof-school, Assoc-acdm, Assoc-voc, 9th, 7th-8th, 12th, Masters, 
+ 3. `education`: Bachelors, Some-college, 11th, HS-grad, Prof-school, Assoc-acdm, Assoc-voc, 9th, 7th-8th, 12th, Masters, 
     1st-4th, 10th, Doctorate, 5th-6th, Preschool.
     
-    4. `marital-status`: Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, Married-AF-spouse
+ 4. `marital-status`: Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, Married-AF-spouse
     
-    5. `occupation`: Tech-support, Craft-repair, Other-service, Sales, Exec-managerial, Prof-specialty, Handlers-cleaners, 
+ 5. `occupation`: Tech-support, Craft-repair, Other-service, Sales, Exec-managerial, Prof-specialty, Handlers-cleaners, 
     Machine-op-inspct, Adm-clerical, Farming-fishing, Transport-moving, Priv-house-serv, Protective-serv, Armed-Forces.
     
-    6. `relationship`: Wife, Own-child, Husband, Not-in-family, Other-relative, Unmarried.
+ 6. `relationship`: Wife, Own-child, Husband, Not-in-family, Other-relative, Unmarried.
     
-    7. `race`: White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black.
+7. `race`: White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black.
  
-    8. `sex`: Female, Male.
+ 8. `sex`: Female, Male.
     
-    9. `hours-per-week`: continuous.
+ 9. `hours-per-week`: continuous.
     
-    10. `native-country`: United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), 
-    India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal,
-    Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand,
-    Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands.
+ 10. `native-country`: United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc),India, Japan, Greece, South, China, Cuba, Iran, Honduras,Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal,Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand,Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands.
    
      **Output variable**
   
-    1. `income`: binary response: `<=50K` or `>50K`
+  1. `income`: binary response: `<=50K` or `>50K`
 
   Dataset url:`https://archive.ics.uci.edu/ml/datasets/Census%2BIncome`
   
